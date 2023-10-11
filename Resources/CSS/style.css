@@ -1,0 +1,132 @@
+body {
+    font-family: Helvetica;
+    font-weight: 22;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+  }
+  
+  
+  .header {
+    background-color: black;
+    display: flex;
+    align-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+  }
+  
+  .logo {
+    display: flex;
+    padding: 10px;
+    width: 50px;
+  }
+  
+  .header-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+  }
+  
+  .header-links a{
+    padding-right: 15px;
+    color: seashell;
+    text-decoration: underline;
+  }
+  
+  .mission {
+    padding-top: 60px;
+    display: flex;
+     justify-content: center;
+      align-content: center;
+  }
+  
+  .bg-img-mission{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*12qix8m*_ga*NDM5MzczODk1LjE1OTQyNTkyMjM.*_ga_3LRZM6TM9L*MTY2MTYzOTAwMC4zMzMuMS4xNjYxNjQ3MzIxLjI3LjAuMA..");
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mission-text {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+  }
+  
+  .tom {
+    display: inline-flex;
+    width: 100%;
+    padding: 25px 0px;
+    justify-content: center;
+  }
+  
+  .tom-header {
+    padding: 25px 0px;
+    width: 100%;
+    height: 100px;
+  }
+  
+  .cards {
+    width: 1000px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  .cards img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .card {
+    padding: 0px 10px;
+  }
+  
+  .locations {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+  }
+  
+  .locations {
+    padding-bottom: 15px;
+  }
+  
+  .bg-img-locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*8xxdut*_ga*NDM5MzczODk1LjE1OTQyNTkyMjM.*_ga_3LRZM6TM9L*MTY2MTYzOTAwMC4zMzMuMS4xNjYxNjQ3OTg3LjguMC4w");
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loc {
+    display: flex;
+  }
+  
+  .location {
+    background: black;
+    width: 300px;
+    height: 250px;
+    margin: 0px 20px;
+  }
+  
+  footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .copywrite {
+    display: flex;
+  }
